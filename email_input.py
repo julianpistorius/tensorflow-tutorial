@@ -135,7 +135,7 @@ def parse_user_args():
 
 
 if __name__ == '__main__':
-    import sys, argparse
+    import argparse
     # get user input
     args = parse_user_args()
     hamDir = args.hamDir
